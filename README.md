@@ -108,5 +108,4 @@ If you use this code or build on the method, please cite:
 
 ## License
 
-MIT (see `LICENSE`). The BAH dataset itself is governed by its own EULA
-and is not included or redistributed here.
+The BAH dataset itself is governed by its own EULA and is not included or redistributed here.
