@@ -1,6 +1,6 @@
 """TellTale: text-only ambivalence/hesitancy recognition for the BAH dataset.
 
-Winning entry, 3rd A/H Video Recognition Challenge (11th ABAW Workshop, ECCV 2026).
+Submitted entry, 3rd A/H Video Recognition Challenge (11th ABAW Workshop, ECCV 2026).
 Private test: Macro-F1 0.7364, AP 0.7940.
 
 Three probability streams over the interview transcript, blended:
