@@ -19,7 +19,8 @@ the interview transcript with three blended probability streams:
    the same MIL objective. Weaker alone, but its errors differ from
    stream A's, which the blend exploits.
 3. **Stream J** — a zero-shot judge: Qwen3-14B (4-bit) is prompted to rate
-   each transcript 0–100 for A/H. No training, no labeled examples.
+   each transcript 0–100 for A/H. No training, no labeled examples.The
+   model runs locally through [`mlx-lm`](https://github.com/ml-explore/mlx-lm)
 
 The MIL objective pools each video's per-chunk scores with a smooth
 maximum (LogSumExp, r=50), so the single most hesitant-sounding chunk
