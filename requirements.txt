@@ -6,3 +6,7 @@ numpy>=1.26
 scikit-learn>=1.4
 PyYAML>=6.0
 tqdm>=4.66
+# Stream J (zero-shot LLM judge) runs on Apple's MLX framework; installed
+# automatically on Apple Silicon, skipped elsewhere (see README for
+# substituting the judge on other hardware).
+mlx-lm==0.28.0; sys_platform == "darwin" and platform_machine == "arm64"
