@@ -1,7 +1,7 @@
 # TellTale
 
 Text-only ambivalence/hesitancy (A/H) recognition for the BAH dataset.
-Winning entry to the **3rd A/H Video Recognition Challenge** (11th ABAW
+Submitted entry to the **3rd A/H Video Recognition Challenge** (11th ABAW
 Workshop, ECCV 2026): private-test **Macro-F1 0.7364**, AP 0.7940, versus
 the official baseline of 0.2827.
 
@@ -83,7 +83,7 @@ python telltale.py predict --out submission.txt
 Every step is resumable: finished fold-seed runs and judged videos are
 cached under `outputs/` and skipped on re-run. `python telltale.py blend`
 re-derives the blend weights and flat-region threshold from your own OOF
-predictions if you wish to verify the shipped constants.
+predictions if you wish to verify the shipped/suggested constants.
 
 Note on exact reproduction: fold assignment is deterministic
 (participant-grouped, no randomness), but per-run training numbers vary
@@ -97,9 +97,9 @@ If you use this code or build on the method, please cite:
 
 ```bibtex
 @inproceedings{altamimi2026telltale,
-  title     = {Blending Multi-Instance LoRA Text Encoders and a Zero-Shot
+  title     = {Telltale: Blending Multi-Instance LoRA Text Encoders and a Zero-Shot
                LLM Judge for Ambivalence/Hesitancy Recognition in Videos},
-  author    = {Al-Tamimi, Abdelkarim},
+  author    = {Al-Tamimi, Abdel-Karim},
   booktitle = {Proceedings of the 11th Workshop on Affective Behavior
                Analysis in-the-Wild (ABAW), ECCV},
   year      = {2026}
