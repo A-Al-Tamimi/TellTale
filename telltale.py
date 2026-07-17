@@ -56,6 +56,7 @@ STREAMS = {
 }
 
 JUDGE_MODEL = "mlx-community/Qwen3-14B-4bit"
+# Adjust the prompt if needed (include CoT, for further improvements)
 JUDGE_SYSTEM = (
     "You are an expert behavioral-psychology rater. You rate interview answers "
     "for AMBIVALENCE/HESITANCY (A/H): the speaker holding conflicting attitudes, "
