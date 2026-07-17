@@ -9,6 +9,9 @@ Three probability streams over the interview transcript, blended:
   J  Qwen3-14B (4-bit, zero-shot prompt), no training
   p = 0.45 pA + 0.30 pB + 0.25 pJ, decision threshold 0.53
 
+Streams A/B use PyTorch + HuggingFace transformers/peft; stream J uses
+Apple's MLX framework through the mlx-lm package (Apple Silicon only).
+
 Subcommands: train, judge, oof, blend, predict. See README.md.
 """
 import argparse
