@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "TellTale: Text-Only Ambivalence/Hesitancy Recognition"
+authors:
+  - family-names: "Al-Tamimi"
+    given-names: "Abdelkarim"
+    affiliation: "Sheffield Hallam University"
+year: 2026
+license: MIT
+preferred-citation:
+  type: conference-paper
+  title: "Blending Multi-Instance LoRA Text Encoders and a Zero-Shot LLM Judge for Ambivalence/Hesitancy Recognition in Videos"
+  authors:
+    - family-names: "Al-Tamimi"
+      given-names: "Abdelkarim"
+  collection-title: "Proceedings of the 11th Workshop on Affective Behavior Analysis in-the-Wild (ABAW), ECCV"
+  year: 2026
