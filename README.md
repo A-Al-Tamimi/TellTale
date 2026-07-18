@@ -18,7 +18,7 @@ the interview transcript with three blended probability streams:
 2. **Stream B** — mDeBERTa-v3-base, fine-tuned with LoRA directly under
    the same MIL objective. Weaker alone, but its errors differ from
    stream A's, which the blend exploits.
-3. **Stream J** — a zero-shot judge: Qwen3-14B (4-bit) is prompted to rate
+3. **Stream J** — a zero-shot judge: Qwen3:14B (4-bit) is prompted to rate
    each transcript 0–100 for A/H. No training, no labeled examples.The
    model runs locally through [`mlx-lm`](https://github.com/ml-explore/mlx-lm)
 
@@ -98,7 +98,7 @@ If you use this code or build on the method, please cite:
 
 ```bibtex
 @inproceedings{altamimi2026telltale,
-  title     = {Telltale: Blending Multi-Instance LoRA Text Encoders and a Zero-Shot
+  title     = {TellTale: Blending Multi-Instance LoRA Text Encoders and a Zero-Shot
                LLM Judge for Ambivalence/Hesitancy Recognition in Videos},
   author    = {Al-Tamimi, Abdel-Karim},
   booktitle = {Proceedings of the 11th Workshop on Affective Behavior
